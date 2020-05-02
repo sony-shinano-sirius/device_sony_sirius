@@ -1,5 +1,7 @@
+#
 # Copyright (C) 2012 The Android Open Source Project
 # Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,13 +14,11 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-"""Custom OTA Package commands for sirius"""
+#
 
 import os
 
 TARGET_DIR = os.getenv('OUT')
-TARGET_DEVICE = os.getenv('CM_BUILD')
 
 def FullOTA_InstallEnd(self):
   self.output_zip.write(os.path.join(TARGET_DIR, "d6502.sh"), "d6502.sh")
