@@ -1,4 +1,4 @@
-Copyright (C) 2019 The LineageOS Project
+Copyright (C) 2020 The LineageOS Project
 
 Device configuration for Sony Xperia Z2
 =========================================
@@ -24,4 +24,4 @@ Rear Camera  | Sony G Lens 20.7 MP 1/2.3" Exmor RS IMX220S back-side illuminated
 
 ## Device picture
 
-![Sony Xperia Z2](https://cdn.support.sonymobile.com/pi/xperiaz2.png "Sony Xperia Z2 in White")
+![Sony Xperia Z2](https://productimages.hepsiburada.net/s/22/460/9941177106482.jpg "Sony Xperia Z2 in White")
